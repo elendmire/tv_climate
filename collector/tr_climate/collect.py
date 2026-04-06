@@ -7,7 +7,7 @@ from typing import Any
 
 import yaml
 
-from tr_climate.history import merge_daily_timeseries
+from tr_climate.history import ROLLING_WINDOW_DAYS, merge_daily_timeseries
 from tr_climate.matcher import KeywordConfig, load_keywords, match_climate, match_topics
 from tr_climate.models import NewsItem, finalize_item
 from tr_climate.rss_fetch import fetch_rss_feed
@@ -91,17 +91,19 @@ def run_collect(
                 "few days per outlet, not a curated multi-year archive."
             ),
             "trends_note_en": (
-                "Long-term line charts read web/public/data/timeseries.json: one row per UTC day, merged on "
-                "each collector run (same day overwrites). Needs several days of CI or local runs to draw a line."
+                f"timeseries.json keeps a rolling window of {ROLLING_WINDOW_DAYS} UTC days; each collect adds "
+                "or updates today and drops older days."
             ),
+            "timeseries_rolling_days": ROLLING_WINDOW_DAYS,
         },
         "timeseries": {
             "path": "data/timeseries.json",
             "description_en": "Daily counts per outlet (items + climate-flagged) for trend charts.",
+            "rolling_window_days": ROLLING_WINDOW_DAYS,
         },
     }
     ts_path = output_dir / "timeseries.json"
-    ts_data = merge_daily_timeseries(ts_path, finalized, now)
+    ts_data = merge_daily_timeseries(ts_path, finalized, now, max_days=ROLLING_WINDOW_DAYS)
     manifest["timeseries"]["day_count"] = ts_data.get("day_count", 0)
     items_path.write_text(
         json.dumps([x.to_json_dict() for x in finalized], ensure_ascii=False, indent=2),

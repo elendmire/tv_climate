@@ -15,8 +15,9 @@ export default function MethodologyPage() {
         <h2>Trend file</h2>
         <p>
           <code>timeseries.json</code> stores one row per UTC day: per-outlet counts of all rows and
-          climate-flagged rows from that collector run. Each scheduled run appends or updates the
-          current day so line charts can grow over months.
+          climate-flagged rows from that collector run. Each scheduled run adds or replaces today (UTC)
+          and keeps a rolling window of the last 30 days; older days are removed from the file (but
+          remain in Git history if you need to rebuild via <code>tr_climate backfill-git</code>).
         </p>
       </div>
 

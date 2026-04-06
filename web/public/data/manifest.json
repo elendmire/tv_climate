@@ -1,22 +1,20 @@
 {
-  "generated_at": "2026-04-06T21:13:01Z",
+  "generated_at": "2026-04-06T21:21:38Z",
   "keyword_list_version": "1",
   "data_schema_version": 1,
-  "item_count": 200,
+  "item_count": 217,
   "climate_related_count": 7,
   "per_source_counts": {
     "trt_haber": 30,
     "ntv": 20,
     "haberturk": 40,
-    "anadolu_agency": 0,
+    "anadolu_agency": 17,
     "yenisafak": 15,
     "milliyet": 20,
     "ahaber": 40,
     "cnnturk": 35
   },
-  "errors": [
-    "anadolu_agency: Server error '500 Internal Server Error' for url 'https://www.aa.com.tr/tr/rss/default?cat=guncel'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
-  ],
+  "errors": [],
   "coverage": {
     "update_schedule_cron_utc": "30 6 * * *",
     "update_schedule_note_en": "GitHub Actions runs daily around 06:30 UTC (see .github/workflows/collect.yml).",
@@ -24,11 +22,13 @@
     "per_source_item_cap": 40,
     "max_rows_in_file": 2500,
     "window_note_en": "Each run replaces items.json with a new snapshot from current listing pages and RSS/Atom feeds. Rows are whatever those surfaces show at fetch time—usually the last hours to a few days per outlet, not a curated multi-year archive.",
-    "trends_note_en": "Long-term line charts read web/public/data/timeseries.json: one row per UTC day, merged on each collector run (same day overwrites). Needs several days of CI or local runs to draw a line."
+    "trends_note_en": "timeseries.json keeps a rolling window of 30 UTC days; each collect adds or updates today and drops older days.",
+    "timeseries_rolling_days": 30
   },
   "timeseries": {
     "path": "data/timeseries.json",
     "description_en": "Daily counts per outlet (items + climate-flagged) for trend charts.",
+    "rolling_window_days": 30,
     "day_count": 1
   }
 }

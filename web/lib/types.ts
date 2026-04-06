@@ -34,11 +34,13 @@ export type ManifestCoverage = {
   max_rows_in_file: number;
   window_note_en: string;
   trends_note_en: string;
+  timeseries_rolling_days?: number;
 };
 
 export type ManifestTimeseries = {
   path: string;
   description_en: string;
+  rolling_window_days?: number;
   day_count?: number;
 };
 

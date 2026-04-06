@@ -19,6 +19,12 @@ python -m tr_climate quality --data ../web/public/data/items.json
 pytest -q
 ```
 
+**Trends (`timeseries.json`):** Each `collect` appends or replaces the current UTC day and keeps a rolling window of the last **30** days (older days are dropped). The file is committed like `items.json`, so history lives in Git. To rebuild the series from past snapshots of `items.json`, run from `collector/`:
+
+`python -m tr_climate backfill-git --repo .. --output ../web/public/data/timeseries.json`
+
+That only recovers days that actually appear in `git log` for `web/public/data/items.json` (e.g. one point until daily CI has run for many days).
+
 ## Web
 
 ```bash

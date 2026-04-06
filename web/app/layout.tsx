@@ -24,6 +24,12 @@ export default function RootLayout({
           </nav>
         </header>
         <main>{children}</main>
+        <footer className="site-footer">
+          <p>
+            Made by Faruk Avcı ·{" "}
+            <a href="mailto:itsfarukavci@gmail.com">itsfarukavci@gmail.com</a>
+          </p>
+        </footer>
       </body>
     </html>
   );

@@ -5,6 +5,7 @@ import sys
 from pathlib import Path
 
 from tr_climate.collect import run_collect
+from tr_climate.git_backfill import backfill_timeseries_from_git
 from tr_climate.quality import run_quality
 
 _REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -33,11 +34,35 @@ def main(argv: list[str] | None = None) -> int:
         help="Path to items.json",
     )
 
+    b = sub.add_parser(
+        "backfill-git",
+        help="Rebuild timeseries.json from git history of items.json (max 30 UTC days)",
+    )
+    b.add_argument(
+        "--repo",
+        type=Path,
+        default=_REPO_ROOT,
+        help="Git repository root",
+    )
+    b.add_argument(
+        "--output",
+        type=Path,
+        default=_DEFAULT_DATA / "timeseries.json",
+        help="Path to timeseries.json",
+    )
+    b.add_argument("--max-days", type=int, default=30, help="Keep last N calendar dates after merge")
+    b.add_argument(
+        "--history-since-days",
+        type=int,
+        default=50,
+        help="Only scan git commits to items.json newer than this many days",
+    )
+
     args = p.parse_args(argv)
     if args.cmd == "collect":
         out = args.output.resolve()
         run_collect(out, sources_path=args.sources, keywords_path=args.keywords)
-        print(f"Wrote {out / 'items.json'} and manifest.json")
+        print(f"Wrote {out / 'items.json'}, manifest.json, timeseries.json")
         return 0
     if args.cmd == "quality":
         path = args.data.resolve()
@@ -45,6 +70,17 @@ def main(argv: list[str] | None = None) -> int:
         for w in warns:
             print(f"WARNING: {w}", file=sys.stderr)
         return 0 if not warns else 0  # warnings are non-fatal for CI
+    if args.cmd == "backfill-git":
+        repo = args.repo.resolve()
+        outp = args.output.resolve()
+        data = backfill_timeseries_from_git(
+            repo,
+            outp,
+            max_days=args.max_days,
+            history_since_days=args.history_since_days,
+        )
+        print(f"Wrote {outp} with {data.get('day_count', 0)} day(s) from git history.")
+        return 0
     return 1
 
 

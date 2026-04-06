@@ -62,10 +62,11 @@ export function Dashboard() {
           <div className="card">
             <h2>Daily history — climate counts by outlet</h2>
             <p className="card-note">
-              One point per outlet per UTC day (accumulated each collector run).{" "}
+              One point per outlet per UTC day. The file keeps a rolling window of up to 30 UTC days;
+              each run adds or replaces today.{" "}
               {historyDays < 2
-                ? "Run the collector on another calendar day to see a line across days."
-                : `${historyDays} days in series.`}
+                ? "Run the collector on more calendar days (or use daily CI) to see a line across days."
+                : `${historyDays} day(s) in the current series.`}
             </p>
             <div className="plot-wrap">
               <ChartHistoryClimate ts={ts} />
@@ -85,8 +86,9 @@ export function Dashboard() {
         <div className="card">
           <h2>Daily history</h2>
           <p className="card-note" style={{ marginBottom: 0 }}>
-            After deploy, <code>timeseries.json</code> will appear once the collector has run. Daily GitHub
-            Actions builds one row per UTC day so trend lines can grow over time.
+            <code>timeseries.json</code> appears after the collector runs. Daily GitHub Actions adds one row
+            per UTC day and trims to the last 30 days. Until several distinct days exist in the file, charts
+            stay empty or show a single point.
           </p>
         </div>
       )}
