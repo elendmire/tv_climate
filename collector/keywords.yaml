@@ -1,0 +1,147 @@
+version: "1"
+
+# Matched case-insensitively after Unicode normalization (NFKC + casefold).
+climate_keywords:
+  tr:
+    - iklim
+    - küresel ısınma
+    - küresel isinma
+    - sera gazı
+    - sera gazi
+    - karbon
+    - emisyon
+    - cop
+    - cop29
+    - cop30
+    - yenilenebilir enerji
+    - yeşil mutabakat
+    - yesil mutabakat
+    - paris anlaşması
+    - paris anlasmasi
+    - iklim değişikliği
+    - iklim degisikligi
+    - kuraklık
+    - kuraklik
+    - orman yangını
+    - orman yangini
+    - sel felaketi
+    - doğa olayı
+    - doga olayi
+    - sürdürülebilirlik
+    - surdurulebilirlik
+    - hava kirliliği
+    - hava kirliligi
+    - yeşil enerji
+    - yesil enerji
+    - rüzgar enerjisi
+    - ruzgar enerjisi
+    - güneş enerjisi
+    - gunes enerjisi
+    - elektrikli araç
+    - elektrikli arac
+  en:
+    - climate
+    - global warming
+    - greenhouse gas
+    - carbon
+    - emissions
+    - cop
+    - renewable energy
+    - paris agreement
+    - net zero
+    - sustainability
+    - deforestation
+    - drought
+    - flood
+    - wildfire
+    - sea level
+    - ipcc
+    - unfccc
+
+# Subsets for rule-based topics (matched on normalized title + description).
+topic_rules:
+  energy:
+    tr:
+      - enerji
+      - elektrik
+      - doğalgaz
+      - dogalgaz
+      - petrol
+      - kömür
+      - komur
+      - güneş
+      - gunes
+      - rüzgar
+      - ruzgar
+      - hidroelektrik
+      - nükleer
+      - nukleer
+      - şebeke
+      - sebeke
+    en:
+      - energy
+      - electricity
+      - gas
+      - oil
+      - coal
+      - solar
+      - wind
+      - nuclear
+      - grid
+  transport:
+    tr:
+      - ulaşım
+      - ulasim
+      - trafik
+      - metro
+      - otobüs
+      - otobus
+      - havalimanı
+      - havalimani
+      - tren
+      - kara yolu
+    en:
+      - transport
+      - traffic
+      - aviation
+      - vehicle
+      - ev
+      - metro
+  disasters:
+    tr:
+      - deprem
+      - sel
+      - yangın
+      - yangin
+      - fırtına
+      - firtina
+      - afet
+      - kuraklık
+      - kuraklik
+      - heyelan
+      - çığ
+      - cig
+    en:
+      - earthquake
+      - flood
+      - fire
+      - storm
+      - disaster
+      - drought
+      - landslide
+  diplomacy:
+    tr:
+      - bm
+      - birleşmiş milletler
+      - birlesmis milletler
+      - anlaşma
+      - anlasma
+      - zirve
+      - görüşme
+      - gorusme
+    en:
+      - united nations
+      - treaty
+      - summit
+      - conference
+      - cop

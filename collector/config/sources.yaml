@@ -1,0 +1,51 @@
+# HTTP-only feeds and listing pages. Adjust if publishers change URLs.
+sources:
+  - id: trt_haber
+    name: TRT Haber
+    type: html_trt
+    listing_urls:
+      - https://www.trthaber.com/haber/gundem/
+      - https://www.trthaber.com/haber/cevre/
+    max_items: 40
+
+  - id: ntv
+    name: NTV
+    type: rss
+    feed_url: https://www.ntv.com.tr/gundem.rss
+    max_items: 40
+
+  - id: haberturk
+    name: Habertürk
+    type: rss
+    feed_url: https://www.haberturk.com/rss
+    max_items: 40
+
+  - id: anadolu_agency
+    name: Anadolu Agency
+    type: rss
+    feed_url: https://www.aa.com.tr/tr/rss/default?cat=guncel
+    max_items: 40
+
+  - id: yenisafak
+    name: Yeni Şafak
+    type: rss
+    feed_url: https://www.yenisafak.com/rss
+    max_items: 40
+
+  - id: milliyet
+    name: Milliyet
+    type: rss
+    feed_url: https://www.milliyet.com.tr/rss/rssNew/gundemRss.xml
+    max_items: 40
+
+  - id: ahaber
+    name: A Haber
+    type: rss
+    feed_url: https://www.ahaber.com.tr/rss/gundem.xml
+    max_items: 40
+
+  - id: cnnturk
+    name: CNN Türk
+    type: rss
+    feed_url: https://www.cnnturk.com/feed/rss/turkiye
+    max_items: 40

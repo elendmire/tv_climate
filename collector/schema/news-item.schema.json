@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tv-climate.local/schema/news-item.json",
+  "title": "NewsItem",
+  "type": "object",
+  "required": [
+    "data_schema_version",
+    "id",
+    "source_id",
+    "title",
+    "url",
+    "language",
+    "climate_related",
+    "matched_keywords",
+    "topics",
+    "collected_at"
+  ],
+  "properties": {
+    "data_schema_version": { "type": "integer", "const": 1 },
+    "id": { "type": "string", "minLength": 8 },
+    "source_id": { "type": "string" },
+    "published_at": { "type": ["string", "null"], "format": "date-time" },
+    "title": { "type": "string" },
+    "description": { "type": "string" },
+    "url": { "type": "string", "format": "uri" },
+    "language": { "const": "tr" },
+    "climate_related": { "type": "boolean" },
+    "matched_keywords": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "topics": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "collected_at": { "type": "string", "format": "date-time" }
+  },
+  "additionalProperties": false
+}

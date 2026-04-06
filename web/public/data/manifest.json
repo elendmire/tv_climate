@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-04-06T20:38:32Z",
+  "keyword_list_version": "1",
+  "data_schema_version": 1,
+  "item_count": 218,
+  "climate_related_count": 7,
+  "per_source_counts": {
+    "trt_haber": 30,
+    "ntv": 20,
+    "haberturk": 40,
+    "anadolu_agency": 18,
+    "yenisafak": 15,
+    "milliyet": 20,
+    "ahaber": 40,
+    "cnnturk": 35
+  },
+  "errors": []
+}
