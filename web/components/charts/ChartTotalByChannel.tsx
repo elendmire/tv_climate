@@ -3,11 +3,12 @@
 import dynamic from "next/dynamic";
 import type { NewsItem } from "@/lib/types";
 import { totalBySource } from "@/lib/aggregate";
+import { plotBg, plotFont, plotGrid } from "@/lib/plotTheme";
 import type { Config, Data, Layout } from "plotly.js";
 
 const Plot = dynamic(() => import("react-plotly.js"), {
   ssr: false,
-  loading: () => <p className="muted">Loading chart…</p>,
+  loading: () => <p className="muted">Loading…</p>,
 });
 
 export function ChartTotalByChannel({ items }: { items: NewsItem[] }) {
@@ -18,16 +19,26 @@ export function ChartTotalByChannel({ items }: { items: NewsItem[] }) {
       orientation: "h",
       y: labels,
       x: values,
-      marker: { color: "#8b949e" },
+      marker: { color: "#aeaeb2" },
     },
   ];
   const layout: Partial<Layout> = {
-    paper_bgcolor: "#161b22",
-    plot_bgcolor: "#161b22",
-    font: { color: "#e6edf3", size: 12 },
-    margin: { t: 24, r: 24, b: 48, l: 120 },
-    xaxis: { title: { text: "Headlines captured" }, gridcolor: "#30363d" },
-    yaxis: { automargin: true },
+    paper_bgcolor: plotBg,
+    plot_bgcolor: plotBg,
+    font: plotFont,
+    margin: { t: 20, r: 20, b: 44, l: 112 },
+    xaxis: {
+      title: { text: "Headlines", font: plotFont },
+      gridcolor: plotGrid,
+      linecolor: plotGrid,
+      tickfont: plotFont,
+      rangemode: "tozero",
+    },
+    yaxis: {
+      automargin: true,
+      gridcolor: plotGrid,
+      tickfont: plotFont,
+    },
     showlegend: false,
   };
   const config: Partial<Config> = { displayModeBar: false, responsive: true };

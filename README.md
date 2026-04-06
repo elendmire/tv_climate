@@ -1,16 +1,14 @@
-# Turkey TV & news — climate mention tracker
+# Turkey TV / news — climate mention tracker
 
-Inspired by [television-news-analyser](https://github.com/polomarcus/television-news-analyser): collect recent headlines from major Turkish outlets over **plain HTTP** (HTML + RSS, no API keys), tag climate-related items with Turkish and English keywords, and visualize them in a static **Next.js** site with **Plotly**. UI is English; article titles stay Turkish.
+Tracks climate-related keywords in headlines from eight Turkish outlets. Data is fetched over HTTP (HTML + RSS), no paid APIs. Dashboard: Next.js, Plotly, static export.
 
-## Layout
+## Repo layout
 
-- `collector/` — Python 3.11+ scraper and data pipeline
-- `web/` — Next.js static export for [Vercel](https://vercel.com/) (set project root to `web`)
-- `web/public/data/` — generated `items.json`, `manifest.json` (committed by CI)
+- `collector/` — Python scraper and pipeline
+- `web/` — Next.js app (deploy root for Vercel)
+- `web/public/data/` — `items.json`, `manifest.json` (updated by CI)
 
-## Local development
-
-### Collector
+## Collector
 
 ```bash
 cd collector
@@ -21,38 +19,33 @@ python -m tr_climate quality --data ../web/public/data/items.json
 pytest -q
 ```
 
-### Web
+## Web
 
 ```bash
 cd web
 npm install
 npm run dev
-```
-
-Build static export:
-
-```bash
 npm run build
 ```
 
-Open `out/` or deploy the `web` folder to Vercel.
+Static files land in `web/out/`.
+
+## Vercel
+
+- **Root Directory:** `web` (Framework: Next.js). If the repo root is used instead, the root `vercel.json` builds `web/` and outputs `web/out`.
+- After changing settings, redeploy from the Deployments tab.
 
 ## GitHub Actions
 
-Workflow [`.github/workflows/collect.yml`](.github/workflows/collect.yml) runs on a schedule, refreshes `web/public/data/`, commits if changed, and runs a data-quality check. Grant **Settings → Actions → Workflow permissions → Read and write** so `GITHUB_TOKEN` can push. If `main` is branch-protected against the default token, add a PAT secret and use it in the workflow (tokens are free; see plan notes).
+[`.github/workflows/collect.yml`](.github/workflows/collect.yml) runs on a schedule, refreshes `web/public/data/`, commits when files change, and runs quality checks. Under **Settings → Actions → General → Workflow permissions**, allow read/write for contents so `GITHUB_TOKEN` can push. Branch protection may require a PAT.
 
-## Methodology
+## Methodology & config
 
-See the in-app **Methodology** page. Keyword list version is defined in [`collector/keywords.yaml`](collector/keywords.yaml).
-
-## Schema
-
-News items follow `collector/schema/news-item.schema.json` (`data_schema_version` currently `1`).
-
-## Sources (8)
-
-Configured in [`collector/config/sources.yaml`](collector/config/sources.yaml): TRT Haber (HTML listings), NTV, Habertürk, Anadolu Agency, Yeni Şafak, Milliyet, A Haber, CNN Türk (RSS/Atom over HTTP). Sites change; adapters may need updates.
+- In-app: `/methodology`
+- Keywords: [`collector/keywords.yaml`](collector/keywords.yaml)
+- Schema: [`collector/schema/news-item.schema.json`](collector/schema/news-item.schema.json)
+- Sources: [`collector/config/sources.yaml`](collector/config/sources.yaml) — TRT Haber (HTML), NTV, Habertürk, Anadolu Agency, Yeni Şafak, Milliyet, A Haber, CNN Türk (RSS/Atom)
 
 ## License
 
-MIT (add your name/year as needed).
+MIT

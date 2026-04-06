@@ -5,56 +5,53 @@ const m = manifest as Manifest;
 
 export default function MethodologyPage() {
   return (
-    <>
-      <h1 style={{ fontSize: "1.5rem", marginBottom: "0.75rem" }}>Methodology</h1>
+    <div className="methodology-page">
+      <h1>Methodology</h1>
 
       <div className="card">
-        <h2>What this measures</h2>
+        <h2>Data</h2>
         <p>
-          We periodically fetch public listing pages and RSS/Atom feeds from eight large Turkish
-          outlets (see the main dashboard). Each item is a <strong>headline</strong> (plus short
-          description when the feed provides it). We do <strong>not</strong> download full article
-          bodies or broadcast transcripts.
+          Headlines (and short blurbs when RSS provides them) from eight outlets, via public listing
+          pages and feeds. Full articles and TV transcripts are not ingested.
         </p>
         <p>
-          An item is flagged <strong>climate-related</strong> if its title or description contains
-          any phrase from our Turkish and English keyword list (version{" "}
-          <code>{m.keyword_list_version}</code>), after Unicode normalization and case-folding.
+          <strong>Climate-related</strong> if title or description matches any phrase in the keyword
+          list (version <code>{m.keyword_list_version}</code>), after Unicode normalization and
+          case-folding.
         </p>
         <p>
-          <strong>Topics</strong> (energy, transport, disasters, diplomacy) are separate,
-          rule-based tags using smaller keyword subsets. They are independent of the climate flag
-          and are meant for coarse grouping only.
+          <strong>Topics</strong> (energy, transport, disasters, diplomacy) use smaller keyword
+          sets; they are separate from the climate flag.
         </p>
       </div>
 
       <div className="card">
-        <h2>Limitations</h2>
+        <h2>Caveats</h2>
         <ul className="muted">
-          <li>Keyword matching misses nuance and synonyms; counts are a lower bound on attention.</li>
-          <li>Outlet homepages and feeds change; collectors need occasional maintenance.</li>
-          <li>This is not a sentiment or accuracy analysis — only mention frequency.</li>
+          <li>String matching only — not exhaustive for nuance or synonyms.</li>
+          <li>Feeds and HTML layouts change; adapters need maintenance.</li>
+          <li>Counts are mentions, not sentiment or fact-checking.</li>
         </ul>
       </div>
 
       <div className="card">
-        <h2>Current dataset snapshot</h2>
+        <h2>Snapshot</h2>
         <ul className="muted" style={{ margin: 0, paddingLeft: "1.25rem" }}>
           <li>
-            Last ingest: <code>{m.generated_at}</code>
+            Generated: <code>{m.generated_at}</code>
           </li>
           <li>
-            Items in file: <strong>{m.item_count}</strong> (climate-flagged:{" "}
-            <strong>{m.climate_related_count}</strong>)
+            Items: <strong>{m.item_count}</strong> · climate-flagged:{" "}
+            <strong>{m.climate_related_count}</strong>
           </li>
           <li>
-            Schema version: <code>{m.data_schema_version}</code>
+            Schema: <code>{m.data_schema_version}</code>
           </li>
         </ul>
         <p className="muted" style={{ marginTop: "0.75rem", marginBottom: 0 }}>
-          Full keyword YAML lives in the repository at <code>collector/keywords.yaml</code>.
+          Keywords: <code>collector/keywords.yaml</code>
         </p>
       </div>
-    </>
+    </div>
   );
 }

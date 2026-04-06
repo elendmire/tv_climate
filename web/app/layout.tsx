@@ -3,9 +3,8 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Turkey news — climate mentions",
-  description:
-    "Headline-level scan of major Turkish outlets for climate-related keywords (research / transparency).",
+  title: "Climate mentions — Turkish news",
+  description: "Climate-related keyword matches across Turkish news listings and feeds.",
 };
 
 export default function RootLayout({
@@ -19,7 +18,7 @@ export default function RootLayout({
         <header className="site-header">
           <nav>
             <Link href="/" className="brand">
-              Turkey climate headlines
+              Climate pulse
             </Link>
             <Link href="/methodology">Methodology</Link>
           </nav>

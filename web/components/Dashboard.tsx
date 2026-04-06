@@ -24,14 +24,14 @@ export function Dashboard() {
   if (err) {
     return (
       <div className="card">
-        <p>Could not load data: {err}</p>
-        <p className="muted">Run the collector to generate web/public/data/items.json.</p>
+        <p>Could not load data ({err}).</p>
+        <p className="muted">Run <code>python -m tr_climate collect</code> in <code>collector/</code>.</p>
       </div>
     );
   }
 
   if (!items) {
-    return <p className="muted">Loading dataset…</p>;
+    return <p className="muted">Loading…</p>;
   }
 
   const climate = items.filter((x) => x.climate_related);
@@ -39,41 +39,33 @@ export function Dashboard() {
   return (
     <>
       <div className="card">
-        <h2>Climate-flagged items by outlet</h2>
-        <p className="muted" style={{ marginTop: 0 }}>
-          Count of headlines matching climate keywords in the current snapshot.
-        </p>
+        <h2>By outlet</h2>
+        <p className="card-note">Climate-flagged headlines in this file.</p>
         <div className="plot-wrap">
           <ChartClimateByChannel items={items} />
         </div>
       </div>
 
       <div className="card">
-        <h2>Climate mentions over time (by published date)</h2>
-        <p className="muted" style={{ marginTop: 0 }}>
-          Daily counts when <code>published_at</code> is available; otherwise items may fall back to
-          collection date in the pipeline.
-        </p>
+        <h2>Over time</h2>
+        <p className="card-note">By published date when available.</p>
         <div className="plot-wrap">
           <ChartClimateTimeline items={items} />
         </div>
       </div>
 
       <div className="card">
-        <h2>All captured headlines by outlet (sample volume)</h2>
-        <p className="muted" style={{ marginTop: 0 }}>
-          Total rows in this run, including non-climate stories.
-        </p>
+        <h2>Volume</h2>
+        <p className="card-note">All rows in this snapshot.</p>
         <div className="plot-wrap">
           <ChartTotalByChannel items={items} />
         </div>
       </div>
 
       <div className="card">
-        <h2>Climate-related headlines</h2>
-        <p className="muted" style={{ marginTop: 0 }}>
-          Showing {climate.length} of {items.length} items. Open the original outlet page for full
-          context.
+        <h2>Climate-flagged</h2>
+        <p className="card-note">
+          {climate.length} of {items.length}
         </p>
         <div style={{ overflowX: "auto" }}>
           <table className="data">
