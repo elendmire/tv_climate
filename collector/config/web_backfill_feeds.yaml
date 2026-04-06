@@ -1,0 +1,13 @@
+# Extra RSS URLs merged only for `tr_climate backfill-web` (wider date spread).
+# Main collector still uses sources.yaml only.
+extra_rss_by_source:
+  ntv:
+    - https://www.ntv.com.tr/ekonomi.rss
+    - https://www.ntv.com.tr/dunya.rss
+  milliyet:
+    - https://www.milliyet.com.tr/rss/rssNew/dunyaRss.xml
+    - https://www.milliyet.com.tr/rss/rssNew/ekonomiRss.xml
+  haberturk:
+    - https://www.haberturk.com/rss/kategori/gundem.xml
+  cnnturk:
+    - https://www.cnnturk.com/feed/rss/all

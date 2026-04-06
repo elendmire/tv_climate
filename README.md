@@ -25,6 +25,15 @@ pytest -q
 
 That only recovers days that actually appear in `git log` for `web/public/data/items.json` (e.g. one point until daily CI has run for many days).
 
+**One-time web backfill (no git history needed):** pulls native RSS (full feed), optional extra feeds in `collector/config/web_backfill_feeds.yaml`, and paginated Bing News RSS per publisher (`site:`), then rebuilds `timeseries.json` for the last 30 UTC days. Publisher links are taken from Bing’s redirect URL when needed. Respect Bing’s terms; use for research / personal dashboards.
+
+```bash
+cd collector
+python -m tr_climate backfill-web --output ../web/public/data/timeseries.json --days 30
+```
+
+Daily `collect` still updates today’s row and trims to 30 days; it clears the backfill `source_note_en` when it runs.
+
 ## Web
 
 ```bash

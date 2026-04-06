@@ -7,6 +7,7 @@ from pathlib import Path
 from tr_climate.collect import run_collect
 from tr_climate.git_backfill import backfill_timeseries_from_git
 from tr_climate.quality import run_quality
+from tr_climate.web_backfill import run_web_backfill
 
 _REPO_ROOT = Path(__file__).resolve().parents[2]
 _DEFAULT_DATA = _REPO_ROOT / "web" / "public" / "data"
@@ -58,6 +59,32 @@ def main(argv: list[str] | None = None) -> int:
         help="Only scan git commits to items.json newer than this many days",
     )
 
+    w = sub.add_parser(
+        "backfill-web",
+        help="Rebuild timeseries.json from RSS + Bing News (last N UTC days, no git)",
+    )
+    w.add_argument(
+        "--output",
+        type=Path,
+        default=_DEFAULT_DATA / "timeseries.json",
+        help="Path to timeseries.json",
+    )
+    w.add_argument("--days", type=int, default=30, help="Number of UTC calendar days to fill")
+    w.add_argument("--sources", type=Path, default=None, help="Override sources.yaml")
+    w.add_argument(
+        "--extra-feeds",
+        type=Path,
+        default=None,
+        help="YAML with extra_rss_by_source (default config/web_backfill_feeds.yaml)",
+    )
+    w.add_argument("--keywords", type=Path, default=None)
+    w.add_argument(
+        "--bing-pages",
+        type=int,
+        default=22,
+        help="Bing News RSS pages per outlet (~10 items each)",
+    )
+
     args = p.parse_args(argv)
     if args.cmd == "collect":
         out = args.output.resolve()
@@ -80,6 +107,22 @@ def main(argv: list[str] | None = None) -> int:
             history_since_days=args.history_since_days,
         )
         print(f"Wrote {outp} with {data.get('day_count', 0)} day(s) from git history.")
+        return 0
+    if args.cmd == "backfill-web":
+        outp = args.output.resolve()
+        data = run_web_backfill(
+            outp,
+            days=args.days,
+            sources_path=args.sources,
+            extra_feeds_path=args.extra_feeds,
+            keywords_path=args.keywords,
+            bing_pages=args.bing_pages,
+        )
+        warns = data.pop("_warnings", None)
+        print(f"Wrote {outp} with {data.get('day_count', 0)} UTC day row(s).")
+        if warns:
+            for line in warns:
+                print(f"WARNING: {line}", file=sys.stderr)
         return 0
     return 1
 

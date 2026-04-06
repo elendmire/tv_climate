@@ -11,10 +11,6 @@ from tr_climate.textnorm import strip_html_to_text
 
 
 def _parse_date(entry: dict[str, Any]) -> str | None:
-    if entry.get("published"):
-        return str(entry["published"]).strip()
-    if entry.get("updated"):
-        return str(entry["updated"]).strip()
     t = entry.get("published_parsed") or entry.get("updated_parsed")
     if t:
         try:
@@ -30,6 +26,10 @@ def _parse_date(entry: dict[str, Any]) -> str | None:
             return dt.isoformat().replace("+00:00", "Z")
         except (TypeError, ValueError):
             pass
+    if entry.get("published"):
+        return str(entry["published"]).strip()
+    if entry.get("updated"):
+        return str(entry["updated"]).strip()
     return None
 
 
@@ -55,14 +55,17 @@ def _entry_summary(entry: dict[str, Any]) -> str:
     return strip_html_to_text(str(s), max_len=800)
 
 
-def fetch_rss_feed(feed_url: str, source_id: str, max_items: int) -> list[RawItem]:
+def fetch_rss_feed(feed_url: str, source_id: str, max_items: int | None = 40) -> list[RawItem]:
     with client() as c:
         r = c.get(feed_url)
         r.raise_for_status()
         body = r.content
     parsed = feedparser.parse(body)
+    entries = parsed.entries
+    if max_items is not None:
+        entries = entries[:max_items]
     out: list[RawItem] = []
-    for entry in parsed.entries[:max_items]:
+    for entry in entries:
         e = dict(entry)
         link = _entry_link(e)
         if not link:

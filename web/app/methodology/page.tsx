@@ -17,7 +17,9 @@ export default function MethodologyPage() {
           <code>timeseries.json</code> stores one row per UTC day: per-outlet counts of all rows and
           climate-flagged rows from that collector run. Each scheduled run adds or replaces today (UTC)
           and keeps a rolling window of the last 30 days; older days are removed from the file (but
-          remain in Git history if you need to rebuild via <code>tr_climate backfill-git</code>).
+          remain in Git history if you need to rebuild via <code>tr_climate backfill-git</code>). For an initial
+          chart without git history, <code>tr_climate backfill-web</code> can rebuild the file from RSS plus Bing
+          News (see README); methodology and coverage differ slightly from the daily snapshot run.
         </p>
       </div>
 
