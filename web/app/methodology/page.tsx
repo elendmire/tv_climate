@@ -1,3 +1,4 @@
+import { DataCoverage } from "@/components/DataCoverage";
 import type { Manifest } from "@/lib/types";
 import manifest from "../../public/data/manifest.json";
 
@@ -7,6 +8,17 @@ export default function MethodologyPage() {
   return (
     <div className="methodology-page">
       <h1>Methodology</h1>
+
+      <DataCoverage manifest={m} />
+
+      <div className="card">
+        <h2>Trend file</h2>
+        <p>
+          <code>timeseries.json</code> stores one row per UTC day: per-outlet counts of all rows and
+          climate-flagged rows from that collector run. Each scheduled run appends or updates the
+          current day so line charts can grow over months.
+        </p>
+      </div>
 
       <div className="card">
         <h2>Data</h2>

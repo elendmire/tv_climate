@@ -7,6 +7,7 @@ from typing import Any
 
 import yaml
 
+from tr_climate.history import merge_daily_timeseries
 from tr_climate.matcher import KeywordConfig, load_keywords, match_climate, match_topics
 from tr_climate.models import NewsItem, finalize_item
 from tr_climate.rss_fetch import fetch_rss_feed
@@ -69,6 +70,7 @@ def run_collect(
 
     output_dir.mkdir(parents=True, exist_ok=True)
     items_path = output_dir / "items.json"
+    per_cap = max(int(s.get("max_items") or 0) for s in sources) if sources else 40
     manifest = {
         "generated_at": now.replace(microsecond=0).isoformat().replace("+00:00", "Z"),
         "keyword_list_version": kw_cfg.version,
@@ -77,7 +79,30 @@ def run_collect(
         "climate_related_count": sum(1 for x in finalized if x.climate_related),
         "per_source_counts": per_source_counts,
         "errors": errors,
+        "coverage": {
+            "update_schedule_cron_utc": "30 6 * * *",
+            "update_schedule_note_en": "GitHub Actions runs daily around 06:30 UTC (see .github/workflows/collect.yml).",
+            "snapshot_mode": True,
+            "per_source_item_cap": per_cap,
+            "max_rows_in_file": 2500,
+            "window_note_en": (
+                "Each run replaces items.json with a new snapshot from current listing pages and RSS/Atom "
+                "feeds. Rows are whatever those surfaces show at fetch time—usually the last hours to a "
+                "few days per outlet, not a curated multi-year archive."
+            ),
+            "trends_note_en": (
+                "Long-term line charts read web/public/data/timeseries.json: one row per UTC day, merged on "
+                "each collector run (same day overwrites). Needs several days of CI or local runs to draw a line."
+            ),
+        },
+        "timeseries": {
+            "path": "data/timeseries.json",
+            "description_en": "Daily counts per outlet (items + climate-flagged) for trend charts.",
+        },
     }
+    ts_path = output_dir / "timeseries.json"
+    ts_data = merge_daily_timeseries(ts_path, finalized, now)
+    manifest["timeseries"]["day_count"] = ts_data.get("day_count", 0)
     items_path.write_text(
         json.dumps([x.to_json_dict() for x in finalized], ensure_ascii=False, indent=2),
         encoding="utf-8",

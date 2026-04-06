@@ -11,7 +11,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -27,7 +27,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -43,7 +43,23 @@
       "iklim"
     ],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
+  },
+  {
+    "data_schema_version": 1,
+    "id": "c5d06f18cde00962",
+    "source_id": "yenisafak",
+    "published_at": "Tue, 07 Apr 2026 00:08:51 GMT",
+    "title": "İsrail'den Yunanistan'a 757 milyon dolarlık roketatar anlaşması",
+    "description": "İsrail Savunma Bakanlığı, Yunan ordusuna Elbit Systems tarafından üretilen PULS (Çok amaçlı fırlatma sistemi) tipi çokl...",
+    "url": "https://www.yenisafak.com/dunya/israilden-yunanistana-757-milyon-dolarlik-roketatar-anlasmasi-4812745",
+    "language": "tr",
+    "climate_related": false,
+    "matched_keywords": [],
+    "topics": [
+      "diplomacy"
+    ],
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -59,7 +75,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -73,7 +89,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -87,7 +103,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -103,7 +119,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -120,7 +136,7 @@
       "energy",
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -134,7 +150,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -151,7 +167,7 @@
       "transport",
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -167,7 +183,7 @@
     "topics": [
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -181,7 +197,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -195,7 +211,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -211,7 +227,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -227,7 +243,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -243,7 +259,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -259,7 +275,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -276,7 +292,21 @@
       "transport",
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
+  },
+  {
+    "data_schema_version": 1,
+    "id": "5ab97a4ee1021b52",
+    "source_id": "haberturk",
+    "published_at": "Sun, 05 Apr 2026 21:00:17 GMT",
+    "title": "Ünlülerin viral olan ilginç tarifleri!",
+    "description": "Ünlüler bu kez kırmızı halıda değil, mutfakta konuşuluyor! Alışılmışın dışına çıkan tarifler kimi zaman “bunu denemeliyim” dedirtirken, kimi zaman da sosyal medyada tartışma başlatıyor. Turşulu içeceklerden cipsli sandviçlere uzanan bu ilginç lezzetler, hem şaşırtıyor hem merak uyandırıyor.",
+    "url": "https://www.haberturk.com/sosyal-medya-ikiye-bolundu-lezzetli-mi-degil-mi-iste-unlulerin-viral-olan-ilginc-yemek-tarifleri-3874923-magazin",
+    "language": "tr",
+    "climate_related": false,
+    "matched_keywords": [],
+    "topics": [],
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -293,7 +323,7 @@
       "transport",
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -309,7 +339,7 @@
     "topics": [
       "energy"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -326,23 +356,7 @@
       "transport",
       "diplomacy"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "ad5a1ca5ca3548ad",
-    "source_id": "haberturk",
-    "published_at": "Sun, 05 Apr 2026 19:45:10 GMT",
-    "title": "Trump, İran'a verdiği süreyi uzattı",
-    "description": "ABD Başkanı Donald Trump, Tahran yönetimine anlaşma yapmak için tanıdığı 48 saatlik süreyi 8 Nisan'a kadar uzattığını belirtti.",
-    "url": "https://www.haberturk.com/trump-iran-a-anlasma-icin-tanidigi-sureyi-8-nisan-a-kadar-uzatti-3875033",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [
-      "diplomacy"
-    ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -356,7 +370,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -372,37 +386,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "929e728fdb3291e2",
-    "source_id": "haberturk",
-    "published_at": "Sun, 05 Apr 2026 19:23:34 GMT",
-    "title": "17 yaşındaki çocuk polisleri bıçakladı",
-    "description": "Bağcılar Kirazlı Mahallesi'nde çıkan kavgayı ayırmaya çalışan polis memurları, 17 yaşındaki saldırgan tarafından el ve bacaklarından bıçaklandı. Kaçmaya çalışan şüpheli ve kavgaya karışan 2 kişi, 4 bıçakla birlikte yakalandı.",
-    "url": "https://www.haberturk.com/bagcilar-da-17-yasindaki-cocuk-polisleri-bicakladi-3875030",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "6be7e9691400368e",
-    "source_id": "haberturk",
-    "published_at": "Sun, 05 Apr 2026 18:43:29 GMT",
-    "title": "Meriç taştı, sular yollara ulaştı",
-    "description": "Edirne'de etkili olan yağışlar, Meriç Nehri'nin debisinin yükselmesine sebep oldu. Taşkın suları, Elçili-Uzunköprü yoluna kadar ulaştı, tarım arazileri sular altında kaldı.",
-    "url": "https://www.haberturk.com/meric-nehri-tasti-3875028",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [
-      "disasters"
-    ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -418,7 +402,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -434,7 +418,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -448,7 +432,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -464,7 +448,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -482,7 +466,7 @@
       "disasters",
       "diplomacy"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -498,7 +482,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -514,7 +498,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -530,7 +514,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -547,7 +531,7 @@
       "transport",
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -565,7 +549,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -581,7 +565,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -597,7 +581,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -614,23 +598,7 @@
       "transport",
       "diplomacy"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "ff744e01decbafb6",
-    "source_id": "haberturk",
-    "published_at": "Sun, 05 Apr 2026 09:01:03 GMT",
-    "title": "12. Yargı Paketi maddeleri",
-    "description": "Adalet Bakanlığı tarafından hazırlanan 12. Yargı Paketi, 2026 yılı itibarıyla Türkiye gündeminin en çok araştırılan başlıkları arasında yer alıyor. Özellikle “12. Yargı Paketi’nde af var mı?” ve “yeni yargı paketi maddeleri neleri kapsıyor?” soruları kamuoyunda yoğun ilgi görüyor. İnfaz düzenlemeleri, ceza adalet sistemi ve yargı süreçlerine yönelik önemli değişiklikler içermesi beklenen paket, yeniden şekillendirilerek TBMM gündemine taşınmaya hazırlanıyor. Torba yasa kapsamında ele alınacak düzenlemelerin, hukuk sisteminde köklü dönüşümler yaratması öngörülüyor. İşte 12. Yargı Paketi son dakika gelişmeleri...",
-    "url": "https://www.haberturk.com/12-yargi-paketi-son-durum-2026-12-yargi-paketi-meclis-e-geldi-mi-ne-zaman-cikacak-12-yargi-paketi-maddeleri-ile-genel-af-cikacak-mi-3874265",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [
-      "diplomacy"
-    ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -647,7 +615,7 @@
       "transport",
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -663,7 +631,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -679,7 +647,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -695,7 +663,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -711,7 +679,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -727,37 +695,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "2327b4637a4dac56",
-    "source_id": "haberturk",
-    "published_at": "Sun, 05 Apr 2026 06:36:20 GMT",
-    "title": "80'ler ve 90'ların unutulan sokak oyunları",
-    "description": "Akıllı telefon ve tabletlerin olmadığı, sokakların çocuk sesleriyle dolup taştığı o yılları hatırlıyor musunuz? Saatlerce süren oyunlar, mahallede kurulan arkadaşlıklar ve bitmek bilmeyen bir enerji... 80'li ve 90'lı yıllarda çocuk olanların büyük bir heyecanla oynadığı, bugün ise adı bile zor hatırlanan o efsane sokak oyunlarını yeniden hatırlatıyoruz...",
-    "url": "https://www.haberturk.com/simdiki-cocuklar-bilmez-tabletlerden-once-onlar-vardi-80-ler-ve-90-larin-unutulan-sokak-oyunlari-3874462",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [
-      "energy"
-    ],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "d6e316b4e1818b35",
-    "source_id": "haberturk",
-    "published_at": "Sun, 05 Apr 2026 06:32:08 GMT",
-    "title": "Super Mario neden İtalyan ve tesisatçıydı?",
-    "description": "Kırmızı şapkası, kalın bıyığı ve tesisatçı kimliğiyle Super Mario'yu tanımayan yok! Peki her neslin kahramanı olan Super Mario'yu ne kadar tanıyorsunuz? Neden İtalyan olduğunu veya neden tulum giydiğini hiç düşündünüz mü? İşte, Super Mario'ya dair sizi gülümsetecek bilgiler",
-    "url": "https://www.haberturk.com/super-mario-neden-italyan-ve-tesisatciydi-iste-dunyanin-en-unlu-kurgusal-karakteri-super-mario-hakkinda-bilmeniz-gerekenler-3874628",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -773,7 +711,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -787,25 +725,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "68740f786b710223",
-    "source_id": "haberturk",
-    "published_at": "Sat, 04 Apr 2026 22:08:27 GMT",
-    "title": "ABD, İngiltere ve Almanya'da en çok değer verilen 3 şey ne?",
-    "description": "'Hayatta sizin için en önemli üç şey nedir?' sorusu, farklı coğrafyalarda çarpıcı yanıtlar buluyor. ABD, İngiltere ve Almanya'da gerçekleştirilen güncel bir araştırma, modern toplumların yaşamdaki önceliklerini gözler önüne serdi. Aile ve sağlık evrensel değerler olarak zirvedeki yerini korurken, ülkelerin kültürlerine göre şekillenen ilginç sonuçlar dikkat çekiyor. İşte araştırmadan yansıyan çarpıcı detaylar...",
-    "url": "https://www.haberturk.com/abd-ingiltere-ve-almanya-da-en-cok-deger-verilen-3-sey-ne-hayatta-sizin-icin-en-onemli-uc-sey-nedir-sorusuna-ne-yanit-verdiler-3874641",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [
-      "transport",
-      "disasters",
-      "diplomacy"
-    ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -821,7 +741,7 @@
     "topics": [
       "energy"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -838,7 +758,7 @@
       "disasters",
       "diplomacy"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -852,7 +772,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -868,7 +788,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -885,7 +805,7 @@
       "energy",
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -902,25 +822,7 @@
       "transport",
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "cc4ca16fdcea8094",
-    "source_id": "haberturk",
-    "published_at": "Sat, 04 Apr 2026 21:04:41 GMT",
-    "title": "Hafta sonu altın fiyatları",
-    "description": "Küresel piyasalarda yön, ABD ile İran arasındaki gerilimin sürmesi ve petrol fiyatlarının yüksek seviyelerde kalmaya devam etmesi nedeniyle aşağı yönlü hareket ediyor. Enerji maliyetlerindeki artış ve doların güçlenmesi, altın fiyatları üzerinde baskı oluşturuyor. Tüm bu gelişmelerin etkisiyle ons altın haftayı 4 bin 676 dolar seviyesinden kapatıyor. Peki, 5 Nisan 2026 itibarıyla Cumhuriyet altını, 22 ayar bilezik, ons altın, tam altın, yarım altın, çeyrek altın ve gram altın fiyatları ne kadar oldu? İşte güncel alış ve satış rakamları…",
-    "url": "https://www.haberturk.com/hafta-sonu-altin-fiyatlari-5-nisan-2026-bugun-cumhuriyet-altini-22-ayar-bilezik-tam-yarim-ceyrek-altin-gram-altin-ne-kadar-3874730",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [
-      "energy",
-      "transport",
-      "disasters"
-    ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -938,7 +840,21 @@
       "disasters",
       "diplomacy"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
+  },
+  {
+    "data_schema_version": 1,
+    "id": "39df3dfe458e6d59",
+    "source_id": "cnnturk",
+    "published_at": "Mon, 06 Apr 2026 23:43:47 GMT",
+    "title": "2026 RESMİ TATİLLER TAKVİMİ: Bu sene hangi günler resmi tatil olacak?",
+    "description": "Nisan ayının gelmesiyle resmi tatiller takvimi yeniden gündeme geldi. Yılbaşı, Ramazan Bayramı tatilini atlatan vatandaşlar sıradaki Kurban Bayramı resmi tatilinin yanı sıra diğer özel gün ve resmi tatil tarihlerini sorgulamaya başladı. Resmi tatil çalışanlara ve öğrencilere dinlenme fırsatı sunarken bu tarihler aynı zamanda seyahat oranının en yüksek olduğu zaman dilimleri arasında yer alıyor. Nisan 2026 itibarıyla geride Kurban Bayramı da dahil birçok resmi tatil bulunuyor. Peki bu sene hangi günler resmi tatil olacak? İşte 2026 resmi tatiller takvimi...",
+    "url": "https://www.cnnturk.com/turkiye/2026-resmi-tatiller-takvimi-bu-sene-hangi-gunler-resmi-tatil-olacak-2414132",
+    "language": "tr",
+    "climate_related": false,
+    "matched_keywords": [],
+    "topics": [],
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -952,7 +868,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -966,21 +882,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "3a95bdd75f5e434c",
-    "source_id": "anadolu_agency",
-    "published_at": "Mon, 06 Apr 2026 23:13:19 +0300",
-    "title": "AK Parti Sözcüsü Çelik: İsrail'in başını çektiği bir savaş lobisi var",
-    "description": "AK Parti Genel Başkan Yardımcısı ve Parti Sözcüsü Ömer Çelik, \"ABD ve İsrail'in İran'a saldırılarına ilişkin, \"İsrail'in başını çektiği bir savaş lobisi var. O savaş lobisinin ABD içerisinde bir karşılığı var.\" dedi.",
-    "url": "https://www.aa.com.tr/tr/gundem/ak-parti-sozcusu-celik-canli-yayinda-sorulari-yanitladi-/3895418",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -996,7 +898,7 @@
     "topics": [
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1010,7 +912,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1024,7 +926,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1040,7 +942,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1056,7 +958,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1072,23 +974,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "d97239227bc13c8e",
-    "source_id": "anadolu_agency",
-    "published_at": "Mon, 06 Apr 2026 22:23:42 +0300",
-    "title": "Trendyol Süper Lig'de 28. haftanın perdesi, tek maçla kapandı",
-    "description": "Trendyol Süper Lig'de 28. haftanın perdesi, tek maçla kapandı.",
-    "url": "https://www.aa.com.tr/tr/spor/futbol-trendyol-super-ligde-gorunum/3895385",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [
-      "transport"
-    ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1102,21 +988,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "e849b7b5440862c3",
-    "source_id": "anadolu_agency",
-    "published_at": "Mon, 06 Apr 2026 22:15:42 +0300",
-    "title": "Kadın futbolunda Türkiye-İsviçre maçına doğru",
-    "description": "Sinop Valisi Mustafa Özarslan, A Milli Kadın Futbol Takımı'nın 2027 FIFA Dünya Kupası Avrupa Elemeleri B Ligi 2. Grup'ta İsviçre ile 18 Nisan'da karşılaşacağı Sinop Şehir Stadı'nda incelemelerde bulundu.",
-    "url": "https://www.aa.com.tr/tr/spor/kadin-futbolunda-turkiye-isvicre-macina-dogru/3895382",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1132,7 +1004,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1148,7 +1020,7 @@
     "topics": [
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1164,7 +1036,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1180,7 +1052,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1196,7 +1068,7 @@
     "topics": [
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1210,23 +1082,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "219d858951af45a3",
-    "source_id": "anadolu_agency",
-    "published_at": "Mon, 06 Apr 2026 21:31:25 +0300",
-    "title": "Mavi Vatan-2026 Tatbikatı devam ediyor",
-    "description": "Milli Savunma Bakanlığı (MSB), Mavi Vatan-2026 Tatbikatı'nın devam ettiğini bildirdi.",
-    "url": "https://www.aa.com.tr/tr/savunma-sanayisi/mavi-vatan-2026-tatbikati-devam-ediyor/3895351",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [
-      "transport"
-    ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1240,7 +1096,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1256,35 +1112,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "c262bc05dacfcc14",
-    "source_id": "anadolu_agency",
-    "published_at": "Mon, 06 Apr 2026 21:25:33 +0300",
-    "title": "Anadolu Ajansı 106'ncı yaşını kutladı",
-    "description": "Gazi Mustafa Kemal Atatürk'ün talimatıyla Kurtuluş Savaşı'nda \"Anadolu'nun sesini dünyaya duyurmak\" amacıyla 6 Nisan 1920'de kurulan Anadolu Ajansı (AA) 106'ncı yaşını kutladı.",
-    "url": "https://www.aa.com.tr/tr/kurumsal-haberler/anadolu-ajansi-106nci-yasini-kutladi/3895341",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "1b7103ef19fbd545",
-    "source_id": "anadolu_agency",
-    "published_at": "Mon, 06 Apr 2026 21:21:06 +0300",
-    "title": "AA Yönetim Kurulu Başkanı ve Genel Müdürü Karagöz: Rekabetçi duruşumuzu uluslararası alanda da artırmayı hedefliyoruz",
-    "description": "Anadolu Ajansı (AA) Yönetim Kurulu Başkanı ve Genel Müdürü Serdar Karagöz, \"Anadolu Ajansı olarak genel rekabetçi duruşumuzu her alanda olduğu gibi uluslararası alanda da artırmayı hedefliyoruz.\" dedi.",
-    "url": "https://www.aa.com.tr/tr/kurumsal-haberler/aanin-106-kurulus-yil-donumu-dolayisiyla-program-duzenlendi/3895334",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1298,7 +1126,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1314,37 +1142,39 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
-    "id": "95a2a64bd88c4096",
-    "source_id": "anadolu_agency",
-    "published_at": "Mon, 06 Apr 2026 20:56:00 +0300",
-    "title": "Kocaelispor ile RAMS Başakşehir arasında oynanan maç berabere bitti",
-    "description": "Trendyol Süper Lig'in 28. haftasında Kocaelispor ile RAMS Başakşehir arasında oynanan maç 0-0 berabere bitti.",
-    "url": "https://www.aa.com.tr/tr/spor/futbol-trendyol-super-lig/3895301",
+    "id": "b3217b0776245325",
+    "source_id": "milliyet",
+    "published_at": "Mon, 06 Apr 2026 20:58:10  Z",
+    "title": "Bakan Bolat: Türkiye'ye son 23 yılda her alanda çağ atlattık",
+    "description": "Çimento, Cam, Seramik ve Toprak Ürünleri İhracatçıları Birliği tarafından Ticaret Bakanlığı'nda \"2025 8. İhracatın Şampiyonları Ödül Töreni\" programı düzenlendi. Programda konuşan Ticaret Bakanı Bolat, \"Bizler burada bize emanet edilen görevi yapıyoruz ve bu anlamda devletimize, milletimize hizmet etmek ve ülkemizin büyümesine, gelişmesine, halkımızın refahının artmasına katkıda bulunmak bizlerin görevleri. Bir de dünyadaki çetin rekabet şartlarında, ticaret savaşlarında, sıcak askeri savaşlarda ülkemizin menfaatlerini korumak ve dahil olmadığımız konularla alakalı bu savaşlarda ateş çemberinin ülkemize yansımasını, vatandaşımızın tırnağına zarar gelmemesini ve ateş çemberinin bize yansımamasını sağlamaktır. Yani tekrar etmeme gerek yok, dünyada büyük bir belirsizlik süreci var. Bölgemizde",
+    "url": "https://www.milliyet.com.tr/ekonomi/bakan-bolat-turkiyeye-son-23-yilda-her-alanda-cag-atlattik-7567089",
     "language": "tr",
     "climate_related": false,
     "matched_keywords": [],
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
-    "id": "dde9b0655f0b90b9",
-    "source_id": "anadolu_agency",
-    "published_at": "Mon, 06 Apr 2026 20:43:53 +0300",
-    "title": "Spor camiası, AA'nın 106. kuruluş yıl dönümünü kutladı",
-    "description": "Spor camiası, Anadolu Ajansının (AA) 106. kuruluş yıl dönümü dolayısıyla kutlama mesajları yayımladı.",
-    "url": "https://www.aa.com.tr/tr/spor/spor-camiasi-aanin-106-kurulus-yil-donumunu-kutladi/3895290",
+    "id": "ae441039ddb6ba88",
+    "source_id": "milliyet",
+    "published_at": "Mon, 06 Apr 2026 20:50:35  Z",
+    "title": "Erzurum'da ambulans ile traktör çarpıştı! Kazada 4 kişi yaralandı",
+    "description": "F.A idaresindeki ambulans ile R.P'nin kullandığı traktör, ilçe sınırlarındaki Erzurum-Ardahan kara yolunda çarpıştı. İhbar üzerine olay yerine sağlık, jandarma, AFAD ve itfaiye ekipleri sevk edildi. YARALILARINN DURUMU İYİ Araçlarda sıkışan yaralılar, AFAD ve itfaiye ekiplerince kurtarıldı. Kazada yaralanan sürücüler F.A, R.P ile sağlık personelleri G.C. ve M.Ü.İ, olay yerindeki ilk müdahalenin ardından ambulanslarla Oltu Devlet Hastanesi'ne kaldırıldı. Jandarma ekipleri kaza yerinde güvenlik önlemi aldı. Yaralıların durumunun iyi olduğu öğrenildi. Dünyanın gözünün çevrildiği Beyaz Saray'dan açıkladı! Trump: İran yarın gece yok edilebilir Cumhurbaşkanı Erdoğan: Gündemimizde erken ya da ara seçim yok",
+    "url": "https://www.milliyet.com.tr/gundem/erzurumda-ambulans-ile-traktor-carpisti-kazada-4-kisi-yaralandi-7567086",
     "language": "tr",
     "climate_related": false,
     "matched_keywords": [],
-    "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "topics": [
+      "transport"
+    ],
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1360,7 +1190,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1376,7 +1206,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1392,7 +1222,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1409,7 +1239,7 @@
       "transport",
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1423,7 +1253,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1439,7 +1269,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1455,7 +1285,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1469,7 +1299,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1486,7 +1316,7 @@
       "transport",
       "diplomacy"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1500,7 +1330,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1516,37 +1346,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "2315a8e6fd620326",
-    "source_id": "anadolu_agency",
-    "published_at": "Mon, 06 Apr 2026 19:51:38 +0300",
-    "title": "Cumhurbaşkanı Erdoğan, AA'nın 106. kuruluş yıl dönümünü kutladı",
-    "description": "Cumhurbaşkanı Erdoğan, \"Cumhuriyetimizin en köklü kurumları arasında yer alan Anadolu Ajansı, sadece bir haber ajansı gibi çalışmanın ötesinde, milli iradenin, hakikatin ve tarafsız haberciliğin gür sesi olmuştur. \" ifadelerini kullandı.",
-    "url": "https://www.aa.com.tr/tr/gundem/cumhurbaskani-erdogan-aanin-106-kurulus-yil-donumunu-kutladi/3895248",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "e5ad30563b7abb08",
-    "source_id": "anadolu_agency",
-    "published_at": "Mon, 06 Apr 2026 19:51:15 +0300",
-    "title": "JPMorgan Chase Üst Yöneticisi Dimon'dan İran savaşının enflasyonu kalıcı hale getirebileceği uyarısı",
-    "description": "JPMorgan Chase Üst Yöneticisi (CEO) Jamie Dimon, İran'daki savaş nedeniyle petrol ve emtia fiyatlarında önemli şoklar yaşanma olasılığıyla karşı karşıya olunduğunu, bu durumun enflasyonun daha kalıcı hale gelmesine yol açabileceğini ifade etti.",
-    "url": "https://www.aa.com.tr/tr/ekonomi/jpmorgan-chase-ust-yoneticisi-dimondan-iran-savasinin-enflasyonu-kalici-hale-getirebilecegi-uyarisi/3895247",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [
-      "energy"
-    ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1562,7 +1362,7 @@
     "topics": [
       "diplomacy"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1576,7 +1376,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1594,7 +1394,7 @@
       "transport",
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1612,21 +1412,7 @@
       "transport",
       "diplomacy"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "e04c24201571418c",
-    "source_id": "anadolu_agency",
-    "published_at": "Mon, 06 Apr 2026 19:34:28 +0300",
-    "title": "TCMB, Mart Ayı Fiyat Gelişmeleri Raporu'nu yayımladı",
-    "description": "Türkiye Cumhuriyet Merkez Bankası (TCMB), mart ayında aylık bazda tüketici enflasyonunun ana eğiliminin gerilediğini bildirdi.",
-    "url": "https://www.aa.com.tr/tr/ekonomi/tcmb-mart-ayi-fiyat-gelismeleri-raporunu-yayimladi/3895236",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1640,24 +1426,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "4a106927a1d4d2a5",
-    "source_id": "milliyet",
-    "published_at": "Mon, 06 Apr 2026 19:11:43  Z",
-    "title": "SON DAKİKA DEPREM HABERİ: AFAD duyurdu! İzmir açıklarında korkutan deprem",
-    "description": "Afet ve Acil Durum Yönetimi Başkanlığı'nın (AFAD) yaptığı açıklamaya göre, İzmir'in Karaburun açıklarında saat 21.29'da 3.6 büyüklüğünde deprem meydana geldi. Depremin derinliği ise 14.39 km olarak belirtildi. Cumhurbaşkanı Erdoğan: Gündemimizde erken ya da ara seçim yok Dünyanın gözünün çevrildiği Beyaz Saray'dan açıkladı! Trump: İran yarın gece yok edilebilir",
-    "url": "https://www.milliyet.com.tr/gundem/son-dakika-afad-duyurdu-izmir-aciklarinda-korkutan-deprem-7567058",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [
-      "transport",
-      "disasters"
-    ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1671,7 +1440,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1688,7 +1457,7 @@
       "transport",
       "diplomacy"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1704,23 +1473,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "49d675d790ddff3b",
-    "source_id": "anadolu_agency",
-    "published_at": "Mon, 06 Apr 2026 18:43:08 +0300",
-    "title": "Afganistan'da şiddetli yağışların yol açtığı afetlerde ölenlerin sayısı 110'a çıktı",
-    "description": "Afganistan'da şiddetli yağışların yol açtığı sel ve heyelanlar sonucu hayatını kaybedenlerin sayısının 110'a yükseldiği, 160 kişinin de yaralandığı bildirildi.",
-    "url": "https://www.aa.com.tr/tr/dunya/afganistanda-siddetli-yagislarin-yol-actigi-afetlerde-olenlerin-sayisi-110a-cikti/3895110",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [
-      "disasters"
-    ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1736,23 +1489,7 @@
     "topics": [
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "6a77fafc2b0fc89b",
-    "source_id": "anadolu_agency",
-    "published_at": "Mon, 06 Apr 2026 18:30:41 +0300",
-    "title": "Borsa günü yükselişle tamamladı",
-    "description": "Borsa İstanbul'da BIST 100 endeksi, günü yüzde 1,36 değer kazanarak 13.112,31 puandan tamamladı.",
-    "url": "https://www.aa.com.tr/tr/ekonomi/borsa-gunu-yukselisle-tamamladi/3895095",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [
-      "disasters"
-    ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1768,21 +1505,7 @@
       "iklim"
     ],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "805717e15ae7c75b",
-    "source_id": "anadolu_agency",
-    "published_at": "Mon, 06 Apr 2026 18:23:56 +0300",
-    "title": "Anadolu Ajansının asırlık öyküsü kitaplaştı",
-    "description": "Gazeteci-yazar Atakan Çelik'in kaleme aldığı \"Yüzyılın Tanığı: Anadolu Ajansı'nın Asırlık Öyküsü\" adlı kitap, okuyucuyla buluştu.",
-    "url": "https://www.aa.com.tr/tr/kurumsal-haberler/anadolu-ajansinin-asirlik-oykusu-kitaplasti/3895087",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1799,21 +1522,7 @@
       "transport",
       "diplomacy"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "e9ee5a76bc770a53",
-    "source_id": "anadolu_agency",
-    "published_at": "Mon, 06 Apr 2026 18:15:23 +0300",
-    "title": "İletişim Başkanı Duran: Türkiye olarak dünyada ne olduğunu da dünyaya anlatma iddiasında bir ülkeyiz",
-    "description": "Cumhurbaşkanlığı İletişim Burhanettin Duran, \"Türkiye olarak biz artık sadece kendi hikayesini anlatan bir iddianın sahibi değiliz; aynı zamanda dünyada ne olduğunu da dünyaya anlatma iddiasında bir ülkeyiz.\" dedi.",
-    "url": "https://www.aa.com.tr/tr/gundem/iletisim-baskani-durandan-aanin-106-kurulus-yil-donumune-iliskin-paylasim/3895072",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1829,7 +1538,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1843,7 +1552,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1857,21 +1566,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "2ddc760424a329f8",
-    "source_id": "yenisafak",
-    "published_at": "Mon, 06 Apr 2026 17:59:19 GMT",
-    "title": "Yarım asırlık güç sahnede! TÜMOSAN yeni serilerini görücüye çıkardı",
-    "description": "Geçtiğimiz yıl 20 ülkeden 432 firma ve temsilciliğin katılımıyla gerçekleştirilen Konya Tarım Fuarı, 80 ülkeden 251.184...",
-    "url": "https://www.yenisafak.com/gundem/yarim-asirlik-guc-sahnede-tumosan-yeni-serilerini-gorucuye-cikardi-4812686",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1885,7 +1580,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1899,7 +1594,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1915,7 +1610,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1931,7 +1626,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1947,23 +1642,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "0b424c9cc57a21c0",
-    "source_id": "anadolu_agency",
-    "published_at": "Mon, 06 Apr 2026 16:55:41 +0300",
-    "title": "Cumhurbaşkanı Erdoğan: Enerji arz güvenliği, tedariki ve depolama noktasında bir sorunumuz yok",
-    "description": "Cumhurbaşkanı Recep Tayyip Erdoğan, \"Enerji arz güvenliği, tedariki ve depolama noktasında bir sorunumuz yok\" dedi.",
-    "url": "https://www.aa.com.tr/tr/gundem/canli-cumhurbaskani-erdogan-konusuyor/3894982",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [
-      "energy"
-    ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1977,7 +1656,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -1991,7 +1670,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2005,7 +1684,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2022,7 +1701,7 @@
       "transport",
       "diplomacy"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2038,7 +1717,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2054,7 +1733,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2070,7 +1749,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2087,7 +1766,7 @@
       "transport",
       "diplomacy"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2101,7 +1780,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2115,7 +1794,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2129,7 +1808,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2143,7 +1822,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2160,7 +1839,7 @@
       "transport",
       "diplomacy"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2174,7 +1853,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2190,7 +1869,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2206,7 +1885,7 @@
     "topics": [
       "energy"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2222,7 +1901,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2238,7 +1917,7 @@
     "topics": [
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2254,7 +1933,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2271,7 +1950,7 @@
       "transport",
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2287,7 +1966,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2303,7 +1982,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2322,7 +2001,7 @@
       "transport",
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2338,7 +2017,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2354,53 +2033,7 @@
     "topics": [
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "3cd50d919c576ce3",
-    "source_id": "cnnturk",
-    "published_at": "Mon, 06 Apr 2026 12:00:10 GMT",
-    "title": "Serik Belediye binasına tüfekli saldırı: Gözaltına alındı!",
-    "description": "Antalya’nın Serik ilçesinde belediye binasına av tüfeğiyle ateş açan Ş.D., polis ekiplerince yakalanıp, gözaltına alındı. Akli dengesinin yerinde olmadığı kaydedilen şüphelinin, bu saldırıdan önce de bir iş yerine ateş açtığı ortaya çıktı.",
-    "url": "https://www.cnnturk.com/turkiye/serik-belediye-binasina-tufekli-saldiri-gozaltina-alindi-2413934",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "ccc2d9335e23cdc7",
-    "source_id": "anadolu_agency",
-    "published_at": "Mon, 06 Apr 2026 11:45:11 +0300",
-    "title": "Lübnanlı aktivistler, İsrail'in saldırılarıyla evsiz bıraktığı ailelere yardım ulaştırarak umut oluyor",
-    "description": "Lübnan'da, İsrail saldırıları nedeniyle yerinden edilen aileler, kurulan çadırlarda ve geçici alanlarda zorlu yaşam koşullarıyla mücadele ederken, gönüllülerin oluşturduğu dayanışma ağları, temel ihtiyaçların karşılanmasında önemli rol oynuyor.",
-    "url": "https://www.aa.com.tr/tr/dunya/lubnanli-aktivistler-israilin-saldirilariyla-evsiz-biraktigi-ailelere-yardim-ulastirarak-umut-oluyor/3894496",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [
-      "transport"
-    ],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "fb5804c9bd3b1c1b",
-    "source_id": "milliyet",
-    "published_at": "Mon, 06 Apr 2026 11:40:16  Z",
-    "title": "THY'nin İstanbul-Monrovia uçuşları 11 Mayıs'ta başlayacak",
-    "description": "THY'nin internet sitesinden yapılan açıklamaya göre, İstanbul Havalimanı ile Monrovia Roberts Uluslararası Havalimanı arasındaki direkt uçuşlar haftanın iki günü (pazartesi, cumartesi) karşılıklı yapılacak. İlk seferin 11 Mayıs'ta yapılacağı iki şehir arasında pazartesi ve cumartesi dışındaki günlerde ise seferler aktarmalı gerçekleştirilecek.",
-    "url": "https://www.milliyet.com.tr/ekonomi/thynin-istanbul-monrovia-ucuslari-11-mayista-baslayacak-7566903",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [
-      "transport"
-    ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2416,24 +2049,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "3f3951b71df55495",
-    "source_id": "anadolu_agency",
-    "published_at": "Mon, 06 Apr 2026 10:18:00 +0300",
-    "title": "Filistin topraklarını gasbeden İsraillilerin Batı Şeria'da düzenlediği saldırılarda 10 Filistinli yaralandı",
-    "description": "İsrailli saldırganların Filistinlilere ait 2 evi ve 10 aracı kundakladığı, yaralanan Filistinlilerden ikisinin hastaneye kaldırıldığı bildirildi.",
-    "url": "https://www.aa.com.tr/tr/dunya/filistin-topraklarini-gasbeden-israillilerin-bati-seriada-duzenledigi-saldirilarda-10-filistinli-yaralandi/3894332",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [
-      "energy",
-      "transport"
-    ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2451,7 +2067,7 @@
       "transport",
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2467,7 +2083,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2483,7 +2099,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2499,7 +2115,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2515,7 +2131,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2531,7 +2147,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2547,7 +2163,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2563,7 +2179,117 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
+  },
+  {
+    "data_schema_version": 1,
+    "id": "25ce86acc8f57511",
+    "source_id": "haberturk",
+    "published_at": "Mon, 06 Apr 2026 04:32:51 GMT",
+    "title": "Üçüncü bebek dünyaya geldi",
+    "description": "Eski futbolcu Mesut Özil ile 2014 Türkiye Güzeli Amine Gülşe, üçüncü çocuklarını kucaklarına aldı",
+    "url": "https://www.haberturk.com/mesut-ozil-ile-amine-gulse-nin-ucuncu-cocuklari-dunyaya-geldi-magazin-haberleri-3875066-magazin",
+    "language": "tr",
+    "climate_related": false,
+    "matched_keywords": [],
+    "topics": [],
+    "collected_at": "2026-04-06T21:13:01Z"
+  },
+  {
+    "data_schema_version": 1,
+    "id": "07ae00ba05b3b25b",
+    "source_id": "haberturk",
+    "published_at": "Mon, 06 Apr 2026 04:28:12 GMT",
+    "title": "5 kişinin öldüğü kazada flaş gelişme!",
+    "description": "Ankara'da, 5 kişinin can verdiği, 14 kişinin ise yaralandığı trafik kazasıyla ilgili özel halk otobüsünün sahibi olan İ.Ç. tutuklandı. İ.Ç.'nin, şoförün yeterlilik belgesini Ankara Büyükşehir Belediyesi'ne göndermediği ve uygunluk raporu almadığı ortaya çıktı",
+    "url": "https://www.haberturk.com/son-dakika-ankara-da-5-kisinin-oldugu-kazada-flas-gelisme-ankara-haberleri-3875068",
+    "language": "tr",
+    "climate_related": false,
+    "matched_keywords": [],
+    "topics": [
+      "transport"
+    ],
+    "collected_at": "2026-04-06T21:13:01Z"
+  },
+  {
+    "data_schema_version": 1,
+    "id": "07edb55dadf293c8",
+    "source_id": "haberturk",
+    "published_at": "Mon, 06 Apr 2026 04:25:02 GMT",
+    "title": "Galeride 15 araç küle döndü",
+    "description": "İstanbul Beşiktaş'ta araç kiralama şirketinin önünde park halindeki otomobilde çıkan ve 14 araca sıçrayan yangın itfaiye ekiplerince söndürüldü. Yangın nedeniyle 15 araçta hasar oluştu",
+    "url": "https://www.haberturk.com/besiktas-ta-arac-kiralama-sirketinde-yangin-15-arac-kule-dondu-3875065",
+    "language": "tr",
+    "climate_related": false,
+    "matched_keywords": [],
+    "topics": [
+      "disasters"
+    ],
+    "collected_at": "2026-04-06T21:13:01Z"
+  },
+  {
+    "data_schema_version": 1,
+    "id": "6c1f0c6dc772600a",
+    "source_id": "haberturk",
+    "published_at": "Mon, 06 Apr 2026 04:18:57 GMT",
+    "title": "5 bölge için sağanak yağmur uyarısı",
+    "description": "Meteoroloji'den yapılan hava durumu tahminlerine göre; Ege'nin güney kesimleri, Akdeniz, Güneydoğu Anadolu, Doğu Anadolu'nun batısı ile Doğu Karadeniz'in iç kesimleri gök gürültülü sağanak yağmurlu olacak. Hava sıcaklıkları mevsim normallerinde seyredecek.",
+    "url": "https://www.haberturk.com/meteoroloji-den-5-bolge-icin-saganak-yagmur-uyarisi-son-dakika-6-nisan-hava-durumu-3875067",
+    "language": "tr",
+    "climate_related": false,
+    "matched_keywords": [],
+    "topics": [
+      "transport"
+    ],
+    "collected_at": "2026-04-06T21:13:01Z"
+  },
+  {
+    "data_schema_version": 1,
+    "id": "f593240f10033f63",
+    "source_id": "haberturk",
+    "published_at": "Mon, 06 Apr 2026 04:16:56 GMT",
+    "title": "ABD-İsrail İran Savaşı'nda son gelişmeler!",
+    "description": "ABD ve İran arasında uzun süredir devam eden gerilim ve sürdürülen diplomasi çalışmaları, 28 Şubat sabahı İsrail'in ABD ile birlikte İran'ı vurmasıyla sonuçlandı. Tarafların saldırıları 38 gündür sürüyor. Anbean tüm gelişmeler Habertürk'te...",
+    "url": "https://www.haberturk.com/abd-israil-iran-savasi-nda-son-gelismeler-3875064",
+    "language": "tr",
+    "climate_related": false,
+    "matched_keywords": [],
+    "topics": [
+      "transport"
+    ],
+    "collected_at": "2026-04-06T21:13:01Z"
+  },
+  {
+    "data_schema_version": 1,
+    "id": "068e9991c250b611",
+    "source_id": "haberturk",
+    "published_at": "Mon, 06 Apr 2026 04:06:33 GMT",
+    "title": "Otomobil fiyatları için artış uyarısı",
+    "description": "Orta Doğu'da bir aydan fazladır devam eden savaş, otomobil satışlarında düşüş eğilimi yaratırken, sektörden fiyatların da artabileceği uyarısı geldi. Lojistik maliyetlerindeki artışa dikkat çeken Toyota Türkiye CEO’su Ali Haydar Bozkurt, \"Üreticiler maliyet artışlarını distribütörlere yansıtmaya başladı. Biz de bunu maalesef araç fiyatlarına yansıtmak durumunda kalacağız\" diye konuştu. Bozkurt, savaşın süresinin pazar büyüklüğünü doğrudan etkileyeceğini de belirterek, mevcut koşullar altında geçen yılki satış adetlerinin bu yıl görülemeyeceğini vurguladı. Yiğitcan Yıldız yazdı...",
+    "url": "https://www.haberturk.com/otomobil-fiyatlari-icin-artis-uyarisi-3875018-ekonomi",
+    "language": "tr",
+    "climate_related": false,
+    "matched_keywords": [],
+    "topics": [
+      "transport"
+    ],
+    "collected_at": "2026-04-06T21:13:01Z"
+  },
+  {
+    "data_schema_version": 1,
+    "id": "892ae84a8d67eb46",
+    "source_id": "haberturk",
+    "published_at": "Mon, 06 Apr 2026 02:57:15 GMT",
+    "title": "Zincirleme kazanın yaralıları ekiplere direndi",
+    "description": "Bursa İnegöl'de üç aracın karıştığı zincirleme trafik kazasında 5 kişi yaralandı. Yaralılar, olay yerine gelen ekiplere direnerek zorluk çıkardı",
+    "url": "https://www.haberturk.com/inegol-de-zincirleme-kazanin-yaralilari-ekiplere-direndi-3875063",
+    "language": "tr",
+    "climate_related": false,
+    "matched_keywords": [],
+    "topics": [
+      "transport"
+    ],
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2579,7 +2305,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2595,7 +2321,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2609,7 +2335,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2623,7 +2349,24 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
+  },
+  {
+    "data_schema_version": 1,
+    "id": "2689c595d5e7d8d2",
+    "source_id": "ntv",
+    "published_at": "2026-04-07T00:00:00+03:00",
+    "title": "Son dakika deprem mi oldu? Az önce deprem nerede oldu? İstanbul, Ankara, İzmir ve il il AFAD son depremler 07 Nisan 2026",
+    "description": "Son depremler... Son dakika deprem mi oldu? Az önce deprem nerede oldu? İstanbul, Ankara, İzmir ve il il AFAD son depremler.. 07 Nisan 2026 deprem son dakika haberleri haberin detayında... Artçı deprem mi oldu? Son deprem büyüklüğü ne kadar? Yakınımdaki depremler nelerdir? Anlık deprem mi oldu? Son dakika canlı deprem Türkiye haritası.. Kandilli Rasathanesi ve Deprem Araştırma Enstitüsü ve AFAD deprem haberleri.. İstanbul'da deprem mi oldu? Ankara'da deprem mi oldu? İzmir'de deprem mi oldu? Hangi illerde deprem oldu ve hissedildi? Bugün deprem mi oldu? Deprem ne zaman ve kaç şiddetinde oldu? En son hangi bölgede deprem oldu? Deprem haberleriyle ilgili en çok merak edilenlerin cevabı haberde..",
+    "url": "https://www.ntv.com.tr/turkiye/son-dakika-deprem-mi-oldu-az-once-deprem-nerede-oldu-istanbul-ankara-izmir-ve-il-il-afad-son-depremler-07-nisan-2026-1719054",
+    "language": "tr",
+    "climate_related": false,
+    "matched_keywords": [],
+    "topics": [
+      "transport",
+      "disasters"
+    ],
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2640,7 +2383,7 @@
       "transport",
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2654,7 +2397,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2670,7 +2413,7 @@
     "topics": [
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2686,7 +2429,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2700,7 +2443,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2716,7 +2459,7 @@
     "topics": [
       "energy"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2730,7 +2473,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2746,7 +2489,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2762,7 +2505,7 @@
     "topics": [
       "diplomacy"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2778,7 +2521,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2795,7 +2538,7 @@
       "transport",
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2809,7 +2552,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2825,7 +2568,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2839,7 +2582,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2853,7 +2596,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2867,7 +2610,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2883,7 +2626,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2900,7 +2643,7 @@
       "transport",
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2914,24 +2657,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
-  },
-  {
-    "data_schema_version": 1,
-    "id": "070e61986a4f9ec2",
-    "source_id": "ntv",
-    "published_at": "2026-04-06T07:30:00+03:00",
-    "title": "Son dakika Çanakkale'de deprem mi oldu? Az önce deprem Çanakkale'de nerede oldu? Çanakkale deprem Kandilli ve AFAD son depremler listesi 06 Nisan 2026",
-    "description": "Son dakika Çanakkale deprem haberleri.. Çanakkale'de deprem mi oldu? Az önce deprem Çanakkale'de nerede oldu? Çanakkale Kandilli ve AFAD son depremler.. 06 Nisan 2026 Çanakkale deprem son dakika haberleri haberin detayında... Artçı deprem mi oldu Çanakkale'de? Çanakkale son deprem büyüklüğü ne kadar? Çanakkale'de ve Çanakkale yakınındaki depremler nelerdir? Çanakkale'de anlık deprem mi oldu? Son dakika Çanakkale canlı deprem haritası.. Kandilli Rasathanesi ve Deprem Araştırma Enstitüsü ve AFAD Çanakkale deprem haberleri.. Çanakkale'de hangi ilçelerde deprem oldu ve hangi ilçelerde en çok hissedildi? Bugün Çanakkale'de deprem mi oldu? Deprem Çanakkale'de ne zaman ve kaç şiddetinde oldu? En son Çanakkale'de nerede deprem oldu? Çanakkale deprem haberleriyle ilgili en çok merak edilenlerin cev",
-    "url": "https://www.ntv.com.tr/turkiye/son-dakika-canakkalede-deprem-mi-oldu-az-once-deprem-canakkalede-nerede-oldu-canakkale-deprem-kandilli-ve-afad-son-depremler-listesi-06-nisan-2026-1718948",
-    "language": "tr",
-    "climate_related": false,
-    "matched_keywords": [],
-    "topics": [
-      "transport",
-      "disasters"
-    ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2945,7 +2671,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2961,7 +2687,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2975,7 +2701,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -2989,7 +2715,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3003,7 +2729,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3017,7 +2743,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3031,7 +2757,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3045,7 +2771,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3059,7 +2785,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3073,7 +2799,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3087,7 +2813,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3104,7 +2830,7 @@
       "transport",
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3120,7 +2846,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3134,7 +2860,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3148,7 +2874,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3162,7 +2888,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3176,7 +2902,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3190,7 +2916,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3208,7 +2934,7 @@
     "topics": [
       "diplomacy"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3222,7 +2948,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3238,7 +2964,7 @@
     "topics": [
       "transport"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3252,7 +2978,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3266,7 +2992,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3280,7 +3006,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3294,7 +3020,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3308,7 +3034,7 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3324,7 +3050,7 @@
     "topics": [
       "diplomacy"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3342,7 +3068,7 @@
     "topics": [
       "diplomacy"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3360,7 +3086,7 @@
     "topics": [
       "disasters"
     ],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   },
   {
     "data_schema_version": 1,
@@ -3374,6 +3100,6 @@
     "climate_related": false,
     "matched_keywords": [],
     "topics": [],
-    "collected_at": "2026-04-06T20:38:32Z"
+    "collected_at": "2026-04-06T21:13:01Z"
   }
 ]

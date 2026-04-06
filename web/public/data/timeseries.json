@@ -1,0 +1,44 @@
+{
+  "data_schema_version": 1,
+  "series": [
+    {
+      "date": "2026-04-06",
+      "by_source": {
+        "milliyet": {
+          "items": 20,
+          "climate": 2
+        },
+        "yenisafak": {
+          "items": 15,
+          "climate": 0
+        },
+        "ahaber": {
+          "items": 40,
+          "climate": 1
+        },
+        "haberturk": {
+          "items": 40,
+          "climate": 0
+        },
+        "cnnturk": {
+          "items": 35,
+          "climate": 1
+        },
+        "ntv": {
+          "items": 20,
+          "climate": 0
+        },
+        "trt_haber": {
+          "items": 30,
+          "climate": 3
+        }
+      },
+      "totals": {
+        "items": 200,
+        "climate": 7
+      }
+    }
+  ],
+  "updated_at": "2026-04-06T21:13:01Z",
+  "day_count": 1
+}

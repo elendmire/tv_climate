@@ -111,11 +111,28 @@ header.site-header nav a:not(.brand):hover {
   border: 1px solid var(--border);
 }
 
-.card h2 {
+.card h2,
+.card-heading {
   margin: 0 0 0.35rem;
   font-size: 1.06rem;
   font-weight: 600;
   letter-spacing: -0.02em;
+}
+
+.coverage-list {
+  margin: 0 0 1rem;
+  padding-left: 1.2rem;
+  color: var(--fg);
+  font-size: 0.94rem;
+  line-height: 1.45;
+}
+
+.coverage-list li {
+  margin-bottom: 0.5rem;
+}
+
+.coverage-list strong {
+  color: var(--fg);
 }
 
 .card .card-note {

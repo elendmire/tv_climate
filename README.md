@@ -6,7 +6,7 @@ Tracks climate-related keywords in headlines from eight Turkish outlets. Data is
 
 - `collector/` — Python scraper and pipeline
 - `web/` — Next.js app (deploy root for Vercel)
-- `web/public/data/` — `items.json`, `manifest.json` (updated by CI)
+- `web/public/data/` — `items.json` (latest snapshot), `timeseries.json` (daily aggregates for charts), `manifest.json` (updated by CI)
 
 ## Collector
 
