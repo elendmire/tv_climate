@@ -2,14 +2,6 @@
   "data_schema_version": 1,
   "series": [
     {
-      "date": "2026-03-08",
-      "by_source": {},
-      "totals": {
-        "items": 0,
-        "climate": 0
-      }
-    },
-    {
       "date": "2026-03-09",
       "by_source": {},
       "totals": {
@@ -404,9 +396,49 @@
         "items": 584,
         "climate": 3
       }
+    },
+    {
+      "date": "2026-04-07",
+      "by_source": {
+        "yenisafak": {
+          "items": 15,
+          "climate": 0
+        },
+        "cnnturk": {
+          "items": 35,
+          "climate": 1
+        },
+        "milliyet": {
+          "items": 20,
+          "climate": 1
+        },
+        "ntv": {
+          "items": 20,
+          "climate": 0
+        },
+        "ahaber": {
+          "items": 40,
+          "climate": 0
+        },
+        "anadolu_agency": {
+          "items": 21,
+          "climate": 0
+        },
+        "haberturk": {
+          "items": 40,
+          "climate": 0
+        },
+        "trt_haber": {
+          "items": 30,
+          "climate": 3
+        }
+      },
+      "totals": {
+        "items": 221,
+        "climate": 5
+      }
     }
   ],
-  "updated_at": "2026-04-06T21:32:08Z",
-  "day_count": 30,
-  "source_note_en": "Built by backfill-web: native RSS/HTML, extra feeds from web_backfill_feeds.yaml, and Bing News RSS (site: publisher) with pagination. Counts are keyword-matched headlines in a ~30-day UTC window; coverage depends on what those surfaces returned."
+  "updated_at": "2026-04-07T07:53:32Z",
+  "day_count": 30
 }
