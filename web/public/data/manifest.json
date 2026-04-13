@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-12T07:47:41Z",
+  "generated_at": "2026-04-13T08:26:04Z",
   "keyword_list_version": "1",
   "data_schema_version": 1,
-  "item_count": 216,
-  "climate_related_count": 7,
+  "item_count": 226,
+  "climate_related_count": 8,
   "per_source_counts": {
     "trt_haber": 30,
     "ntv": 20,
     "haberturk": 40,
-    "anadolu_agency": 16,
+    "anadolu_agency": 26,
     "yenisafak": 15,
     "milliyet": 20,
     "ahaber": 40,
