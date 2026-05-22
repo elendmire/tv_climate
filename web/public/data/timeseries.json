@@ -2,47 +2,6 @@
   "data_schema_version": 1,
   "series": [
     {
-      "date": "2026-04-22",
-      "by_source": {
-        "yenisafak": {
-          "items": 15,
-          "climate": 0
-        },
-        "cnnturk": {
-          "items": 35,
-          "climate": 0
-        },
-        "milliyet": {
-          "items": 20,
-          "climate": 2
-        },
-        "anadolu_agency": {
-          "items": 26,
-          "climate": 0
-        },
-        "ahaber": {
-          "items": 40,
-          "climate": 0
-        },
-        "ntv": {
-          "items": 20,
-          "climate": 0
-        },
-        "haberturk": {
-          "items": 40,
-          "climate": 0
-        },
-        "trt_haber": {
-          "items": 30,
-          "climate": 5
-        }
-      },
-      "totals": {
-        "items": 226,
-        "climate": 7
-      }
-    },
-    {
       "date": "2026-04-23",
       "by_source": {
         "cnnturk": {
@@ -1230,8 +1189,49 @@
         "items": 230,
         "climate": 4
       }
+    },
+    {
+      "date": "2026-05-22",
+      "by_source": {
+        "yenisafak": {
+          "items": 15,
+          "climate": 0
+        },
+        "cnnturk": {
+          "items": 35,
+          "climate": 1
+        },
+        "ntv": {
+          "items": 20,
+          "climate": 0
+        },
+        "milliyet": {
+          "items": 20,
+          "climate": 1
+        },
+        "anadolu_agency": {
+          "items": 30,
+          "climate": 1
+        },
+        "ahaber": {
+          "items": 40,
+          "climate": 0
+        },
+        "haberturk": {
+          "items": 40,
+          "climate": 0
+        },
+        "trt_haber": {
+          "items": 30,
+          "climate": 2
+        }
+      },
+      "totals": {
+        "items": 230,
+        "climate": 5
+      }
     }
   ],
-  "updated_at": "2026-05-21T10:07:21Z",
+  "updated_at": "2026-05-22T09:53:06Z",
   "day_count": 30
 }
