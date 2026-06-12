@@ -1,22 +1,20 @@
 {
-  "generated_at": "2026-06-11T11:04:13Z",
+  "generated_at": "2026-06-12T10:44:36Z",
   "keyword_list_version": "1",
   "data_schema_version": 1,
-  "item_count": 200,
-  "climate_related_count": 3,
+  "item_count": 226,
+  "climate_related_count": 2,
   "per_source_counts": {
     "trt_haber": 30,
     "ntv": 20,
     "haberturk": 40,
-    "anadolu_agency": 0,
+    "anadolu_agency": 26,
     "yenisafak": 15,
     "milliyet": 20,
     "ahaber": 40,
     "cnnturk": 35
   },
-  "errors": [
-    "anadolu_agency: Server error '502 Bad Gateway' for url 'https://www.aa.com.tr/tr/rss/default?cat=guncel'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502"
-  ],
+  "errors": [],
   "coverage": {
     "update_schedule_cron_utc": "30 6 * * *",
     "update_schedule_note_en": "GitHub Actions runs daily around 06:30 UTC (see .github/workflows/collect.yml).",
