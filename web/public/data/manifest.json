@@ -1,22 +1,20 @@
 {
-  "generated_at": "2026-10-07T13:38:53Z",
+  "generated_at": "2026-10-08T13:46:06Z",
   "keyword_list_version": "1",
   "data_schema_version": 1,
-  "item_count": 235,
-  "climate_related_count": 9,
+  "item_count": 252,
+  "climate_related_count": 8,
   "per_source_counts": {
     "trt_haber": 30,
-    "ntv": 0,
+    "ntv": 20,
     "haberturk": 40,
-    "anadolu_agency": 30,
+    "anadolu_agency": 27,
     "yenisafak": 40,
     "milliyet": 20,
     "ahaber": 40,
     "cnnturk": 35
   },
-  "errors": [
-    "ntv: Client error '403 Forbidden' for url 'https://www.ntv.com.tr/gundem.rss'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-  ],
+  "errors": [],
   "coverage": {
     "update_schedule_cron_utc": "30 6 * * *",
     "update_schedule_note_en": "GitHub Actions runs daily around 06:30 UTC (see .github/workflows/collect.yml).",
